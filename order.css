@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  background-color: rgb(178, 184, 229);
+}
+header {
+  background-color: rgb(129, 143, 191);
+  padding: 15px;
+}
+header h1 {
+  text-align: center;
+  color: white;
+}
+main {
+  width: 400px;
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+}
+li {
+  list-style: none;
+  background-color: rgb(219, 157, 239);
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  padding: 7px;
+}
+.item:hover {
+  background-color: rgb(80, 44, 92);
+  color: white;
+}
+
+#last-item {
+  background-color: white;
+}
+li span {
+  float: right;
+}
